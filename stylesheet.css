@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: #75d8ff;
+}
+
+body #container {
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 5px;
+
+    font-size: 27px;
+}
+
+body #container .content p{
+    margin: 10px;
+}
+
+.content .inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    right: 12px;
+}
+
+.limpar, button {
+    background-color: transparent;
+    border: 0;
+
+    color: #75d8ff;
+
+    font-size: 27px;
+}
+
+#number {
+    padding: 10px;
+    margin-left: 10px;
+}
